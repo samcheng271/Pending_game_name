@@ -1561,8 +1561,8 @@
     {
       "b": 26,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level6",
-      "name": "Level6",
+      "mangledName": "Level",
+      "name": "Level",
       "r": 11,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1675,6 +1675,21 @@
         },
         {
           "angle": 0,
+          "customSize": false,
+          "height": 265.3482971191406,
+          "layer": "",
+          "name": "Platform4",
+          "persistentUuid": "dac6a253-9929-4369-b079-5ea42e96d4da",
+          "width": 320,
+          "x": 1802,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
           "customSize": true,
           "height": 928,
           "layer": "",
@@ -1697,9 +1712,41 @@
           "name": "Checkpoint",
           "persistentUuid": "8ea01fcc-2da7-4eb2-966c-1b50c561bf00",
           "width": 53,
-          "x": 1512,
-          "y": 332,
+          "x": 853,
+          "y": 265,
           "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 61,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "cf7bf264-ecd2-4da5-a450-bccd03660e3e",
+          "width": 61,
+          "x": 1621,
+          "y": 155,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 60,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "8641a775-4dc9-4396-ac7c-ba8b7a00dba7",
+          "width": 60,
+          "x": 1258,
+          "y": 306,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1721,15 +1768,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 67,
+          "customSize": false,
+          "height": 97.86228942871094,
           "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "5b30eed8-a7bd-4adc-b2da-7eec9e9adc87",
-          "width": 67,
-          "x": 519,
-          "y": 210,
+          "name": "Platform3",
+          "persistentUuid": "897ece0a-9bc4-470b-9d60-5bdc29242124",
+          "width": 232.15505981445312,
+          "x": 409,
+          "y": 388,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1737,15 +1783,29 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 93,
+          "customSize": false,
+          "height": 95.92308044433594,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "5b30eed8-a7bd-4adc-b2da-7eec9e9adc87",
+          "width": 261,
+          "x": 697,
+          "y": 321,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 99,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "e05f88cc-8c5c-42d6-8ebd-a02a3a933517",
-          "width": 149,
-          "x": 162,
-          "y": 251,
+          "width": 269.3721008300781,
+          "x": 106,
+          "y": 274,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1769,13 +1829,29 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 0,
+          "height": 55,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "1989e88d-b9a1-4d50-bf0e-59255f899d23",
+          "width": 55,
+          "x": 971,
+          "y": 296,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "height": 928,
           "layer": "",
           "name": "RightBoundary",
           "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
           "width": 160,
-          "x": 2842,
-          "y": -237,
+          "x": 2112,
+          "y": -256,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -1784,12 +1860,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 128,
           "layer": "",
           "name": "TopBoundary",
           "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
-          "width": 3002,
+          "width": 2272,
           "x": 0,
           "y": -256,
           "zOrder": 59,
@@ -1800,12 +1875,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
           "height": 128,
           "layer": "",
           "name": "BottomBoundary",
           "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
-          "width": 2993,
+          "width": 2272,
           "x": 0,
           "y": 544,
           "zOrder": 60,
@@ -1837,8 +1911,8 @@
           "name": "FullFountainBlue",
           "persistentUuid": "9ea7251a-4371-46df-b096-1eaf9ac91b37",
           "width": 60,
-          "x": 2717,
-          "y": 89,
+          "x": 2017,
+          "y": 120,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -1853,8 +1927,8 @@
           "name": "Player",
           "persistentUuid": "d18cbb05-c4c3-45fa-9f0d-318d3a0257d0",
           "width": 87,
-          "x": 189,
-          "y": 156,
+          "x": 170,
+          "y": 148,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -1877,16 +1951,31 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 58,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "222b9e40-b12f-4aee-98a3-a33074423ec8",
-          "width": 58,
-          "x": 1222,
-          "y": 441,
+          "width": 0,
+          "x": 1467,
+          "y": 280,
           "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 99,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "dcc76892-1e71-43b2-8fc9-5f72f8cd6970",
+          "width": 380,
+          "x": 1044,
+          "y": 349,
+          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1911,366 +2000,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 63,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "f1eadfa0-f33b-4e21-ad23-4911db3d1e2e",
-          "width": 63,
-          "x": 739,
-          "y": 355,
-          "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 51,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "5206e180-03ac-4066-93c9-90a73aeb6256",
-          "width": 51,
-          "x": 1012,
-          "y": 329,
-          "zOrder": 77,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 85,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "dc18cab8-d313-4258-9987-cc6895706957",
-          "width": 140,
-          "x": 1469,
-          "y": 394,
-          "zOrder": 78,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 114,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "40168e3b-bbe4-4b85-bced-f76f40a4a370",
-          "width": 117,
-          "x": 1161,
-          "y": 211,
-          "zOrder": 81,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 164,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "fff08996-7853-4c83-bf35-8647d964f02e",
-          "width": 164,
-          "x": 1753,
-          "y": 294,
-          "zOrder": 82,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 135,
-          "layer": "",
-          "name": "Platform5",
-          "persistentUuid": "aeb59d85-429a-49d3-a546-eb362a9e8046",
-          "width": 135,
-          "x": 1698,
-          "y": 454,
-          "zOrder": 83,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "02729624-72ad-4de7-a930-2ad0acfe88d1",
-          "width": 64,
-          "x": 2029,
-          "y": 434,
-          "zOrder": 84,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 120,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "a5183f10-fc9c-4c2f-a189-7dee567dd2d8",
-          "width": 170,
-          "x": 2181,
-          "y": 368,
-          "zOrder": 85,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 113,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "471ff808-656d-46ac-89a7-277dc7dbc360",
-          "width": 113,
-          "x": 904,
-          "y": 500,
-          "zOrder": 86,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "0ec0fe14-5fe9-4440-ade3-8becf2da86bf",
-          "width": 75,
-          "x": 2773,
-          "y": 270,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "c6554f46-5f46-4aa9-a2e4-39ccc0bacce4",
-          "width": 75,
-          "x": 2698,
-          "y": 270,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "7316f794-0320-41de-a8c0-76660cad72a0",
-          "width": 75,
-          "x": 2698,
-          "y": 345,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "89435c5e-ca94-4ad9-8d77-e05611f1d978",
-          "width": 75,
-          "x": 2773,
-          "y": 345,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "7d5985c0-43bf-42b1-b399-530349756f31",
-          "width": 75,
-          "x": 2699,
-          "y": 420,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "9189eb03-f09c-44f6-b0ff-5a089f1f45bc",
-          "width": 75,
-          "x": 2774,
-          "y": 420,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "716fb568-0ceb-4ea8-ac6f-9f238b85078c",
-          "width": 75,
-          "x": 2774,
-          "y": 495,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "f40ab1d2-0041-4218-b497-9ffe66d02f88",
-          "width": 75,
-          "x": 2699,
-          "y": 495,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "20f58828-0d38-4a77-96b2-032e0d56186d",
-          "width": 75,
-          "x": 2549,
-          "y": 269,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "574889ec-bff0-4bed-b4c3-c76cd0cbf155",
-          "width": 75,
-          "x": 2624,
-          "y": 269,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "7bdda0a1-a3b5-4247-9ab8-3e9774f423b5",
-          "width": 75,
-          "x": 2624,
-          "y": 344,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "537447eb-785d-43ed-8020-e9e721421403",
-          "width": 58,
-          "x": 641,
-          "y": 255,
-          "zOrder": 88,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "317c8d1a-36df-4bad-808e-6a205fbd92b3",
-          "width": 75,
-          "x": 1362,
-          "y": 359,
-          "zOrder": 89,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 93,
+          "height": 839,
           "layer": "Background",
-          "name": "Alcohol",
-          "persistentUuid": "a1cba23f-e35b-4458-9443-696197088993",
-          "width": 93,
-          "x": 507,
-          "y": 110,
-          "zOrder": 91,
+          "name": "BackgroundColoredGrass",
+          "persistentUuid": "71190124-e6dd-477f-bac1-7676c9dcd717",
+          "width": 2272,
+          "x": 51,
+          "y": -237,
+          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2278,7 +2015,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -2305,8 +2041,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Platform 1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2319,7 +2055,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 14
+                          },
+                          {
+                            "x": 259,
+                            "y": 14
+                          },
+                          {
+                            "x": 246,
+                            "y": 68.25
+                          },
+                          {
+                            "x": 32.5,
+                            "y": 69.75
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -2328,7 +2083,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -2350,7 +2104,7 @@
               "Width": 200,
               "Height": 0,
               "Clockwise": true,
-              "HorizontalEdgeDuration": 2,
+              "HorizontalEdgeDuration": 3,
               "VerticalEdgeDuration": 0,
               "Left": 1,
               "Top": 1,
@@ -2373,7 +2127,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
+                      "image": "assets\\Platform 2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2389,20 +2143,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 61,
-                            "y": 11.5
+                            "x": 11,
+                            "y": 14
                           },
                           {
-                            "x": 4,
-                            "y": 11.5
+                            "x": 263,
+                            "y": 14
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 257.5607604980469,
+                            "y": 46.77951431274414
                           },
                           {
-                            "x": 62.5,
-                            "y": 0
+                            "x": 182.0052032470703,
+                            "y": 100.11284637451172
+                          },
+                          {
+                            "x": 99.22743225097656,
+                            "y": 88.44618225097656
+                          },
+                          {
+                            "x": 13.11631965637207,
+                            "y": 50.11284637451172
                           }
                         ]
                       ]
@@ -2414,93 +2176,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Platform5",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "RectangleMovement",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": 200,
-              "Height": 0,
-              "Clockwise": true,
-              "HorizontalEdgeDuration": 5,
-              "VerticalEdgeDuration": 0,
-              "Left": 1,
-              "Top": 1,
-              "Progress": 1,
-              "OldX": 1,
-              "OldY": 1,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Top-left corner",
-              "ToogleClockwise": false
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 61,
-                            "y": 11.5
-                          },
-                          {
-                            "x": 4,
-                            "y": 11.5
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 62.5,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -2569,7 +2244,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -2588,17 +2262,16 @@
           ],
           "animations": [
             {
-              "name": "assets\\Corner platform",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Corner platform3",
+                      "image": "assets\\Corner platform.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2614,28 +2287,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 1
+                            "x": 18.75,
+                            "y": 22
                           },
                           {
-                            "x": 500,
-                            "y": 0
+                            "x": 320,
+                            "y": 22
                           },
                           {
-                            "x": 494.5,
-                            "y": 478
+                            "x": 320,
+                            "y": 265
                           },
                           {
-                            "x": 463.5,
-                            "y": 478
+                            "x": 201.25,
+                            "y": 265
                           },
                           {
-                            "x": 240.5,
-                            "y": 350
-                          },
-                          {
-                            "x": 1.5,
-                            "y": 140
+                            "x": 23.125,
+                            "y": 90.3125
                           }
                         ]
                       ]
@@ -2647,7 +2316,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -2753,7 +2421,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Alcohol",
           "tags": "",
@@ -3086,7 +2753,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -3136,7 +2802,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -3186,7 +2851,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -3228,7 +2892,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -3270,7 +2933,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -3575,7 +3237,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "d3dd6c400fba9c7aabb1add0a70bfb25b3239d7ed02fcc41f946cbf773fac79f",
           "name": "FullFountainBlue",
           "tags": "",
@@ -3708,7 +3369,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
           "name": "Player",
           "tags": "",
@@ -4548,54 +4208,6 @@
           ]
         },
         {
-          "assetStoreId": "715bdec225a9f2e5fad34f80d8c9a8232ba7991f9dad2e17cb4007f1827dd08b",
-          "height": 128,
-          "name": "TilesetPiece3",
-          "tags": "",
-          "texture": "tiled_Tileset Piece 3.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "1cf0454ce2e8d541b37b2d8e18a82aae238b9e1903bac5c708befeef4e9d3e50",
-          "height": 128,
-          "name": "PlatformMid",
-          "tags": "",
-          "texture": "tiled_Platform Mid.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "711300ce5e3734593cb6aef03e87795a51542f2e616303c2c8346703c56eb939",
-          "height": 128,
-          "name": "SkyBackground",
-          "tags": "",
-          "texture": "tiled_Sky Background.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "1b661220e71e589d8c84b24b47fc825e412b4f71e2023384a8af4528ff9e1458",
-          "height": 128,
-          "name": "Tile10TiledSprite",
-          "tags": "",
-          "texture": "tiled_Tile 10 tiled sprite.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
           "height": 128,
           "name": "BackgroundColoredGrass",
@@ -4603,30 +4215,6 @@
           "texture": "tiled_Background Colored Grass.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "8ff00334308f34d7bb1901608f2e0f2a237804324e27f4e1cc3246368881b3d9",
-          "height": 128,
-          "name": "BackgroundColoredDesert",
-          "tags": "",
-          "texture": "tiled_Background Colored Desert.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "36bd5f09d698924d759e040a1c512bbca8bb719a2ed4afbb6b995e876374c8fe",
-          "height": 2048,
-          "name": "TilesetPiece13",
-          "tags": "",
-          "texture": "tiled_Tileset Piece 13.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 2048,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -5025,16 +4613,21 @@
                         "Player",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Age",
+                        "=",
+                        "1"
+                      ]
                     }
                   ]
                 }
               ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
@@ -5044,7 +4637,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "Booze",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5061,17 +4653,6 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Enemy::IsFlyDead"
-                      },
-                      "parameters": [
-                        "",
-                        "Alcohol",
-                        ""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "CollisionNP"
@@ -5162,6 +4743,16 @@
                             "Player",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Age",
+                            "=",
+                            "1"
+                          ]
                         }
                       ]
                     }
@@ -5200,7 +4791,7 @@
                       },
                       "parameters": [
                         "Alcohol",
-                        ">",
+                        "<",
                         "Background.BoundingBoxBottom()"
                       ]
                     }
@@ -5212,6 +4803,18 @@
                       },
                       "parameters": [
                         "Alcohol",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "crickets.aac",
+                        "",
+                        "",
                         ""
                       ]
                     }
@@ -5744,7 +5347,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Level2\"",
+                        "\"Level3\"",
                         ""
                       ]
                     }
@@ -6444,8 +6047,8 @@
     {
       "b": 26,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level5",
-      "name": "Level5",
+      "mangledName": "Level3",
+      "name": "Level3",
       "r": 11,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -6461,7 +6064,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5751709533766701,
+        "zoomFactor": 0.7752190992063892,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6559,6 +6162,22 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 0,
+          "height": 349,
+          "layer": "",
+          "name": "Platform4",
+          "persistentUuid": "dac6a253-9929-4369-b079-5ea42e96d4da",
+          "width": 349,
+          "x": 2513,
+          "y": 262,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "height": 928,
           "layer": "",
           "name": "LeftBoundary",
@@ -6580,8 +6199,8 @@
           "name": "Checkpoint",
           "persistentUuid": "8ea01fcc-2da7-4eb2-966c-1b50c561bf00",
           "width": 53,
-          "x": 1512,
-          "y": 332,
+          "x": 865,
+          "y": -14,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -6604,15 +6223,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 67,
+          "customSize": false,
+          "height": 95.92308044433594,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "5b30eed8-a7bd-4adc-b2da-7eec9e9adc87",
-          "width": 67,
-          "x": 519,
-          "y": 210,
+          "width": 261,
+          "x": 453,
+          "y": 332,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -6620,15 +6238,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 93,
+          "customSize": false,
+          "height": 99,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "e05f88cc-8c5c-42d6-8ebd-a02a3a933517",
-          "width": 149,
-          "x": 162,
-          "y": 251,
+          "width": 269.3721008300781,
+          "x": 136,
+          "y": 268,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -6760,16 +6377,31 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 58,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "222b9e40-b12f-4aee-98a3-a33074423ec8",
-          "width": 58,
-          "x": 1222,
-          "y": 441,
+          "width": 0,
+          "x": 1511,
+          "y": 276,
           "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 99,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "dcc76892-1e71-43b2-8fc9-5f72f8cd6970",
+          "width": 380,
+          "x": 1044,
+          "y": 349,
+          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6794,14 +6426,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 63,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "f1eadfa0-f33b-4e21-ad23-4911db3d1e2e",
-          "width": 63,
-          "x": 739,
-          "y": 355,
-          "zOrder": 73,
+          "height": 274,
+          "layer": "Background",
+          "name": "SkyBackground",
+          "persistentUuid": "0b67dbce-5b45-421c-95b8-78b41ab831ad",
+          "width": 982,
+          "x": 94,
+          "y": -152,
+          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6810,13 +6442,59 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 51,
+          "height": 784,
+          "layer": "Background",
+          "name": "BackgroundColoredDesert",
+          "persistentUuid": "79741113-4ad3-4d60-89b9-69cbdddf9192",
+          "width": 3176,
+          "x": -60,
+          "y": -192,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 45,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "6eff412c-b72b-4b00-bd8d-9279ba2ce902",
+          "width": 186,
+          "x": 386,
+          "y": 115,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "f1eadfa0-f33b-4e21-ad23-4911db3d1e2e",
+          "width": 0,
+          "x": 789,
+          "y": 45,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "5206e180-03ac-4066-93c9-90a73aeb6256",
-          "width": 51,
-          "x": 1012,
-          "y": 329,
+          "width": 0,
+          "x": 921,
+          "y": 349,
           "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
@@ -6826,13 +6504,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 85,
+          "height": 47,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "dc18cab8-d313-4258-9987-cc6895706957",
-          "width": 140,
-          "x": 1469,
-          "y": 394,
+          "width": 105,
+          "x": 1843,
+          "y": 275,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -6842,318 +6520,46 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 114,
+          "height": 47,
           "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "40168e3b-bbe4-4b85-bced-f76f40a4a370",
-          "width": 117,
-          "x": 1161,
-          "y": 211,
+          "name": "Platform1",
+          "persistentUuid": "d9ce0c9d-4590-4a09-a393-8110e3ca952f",
+          "width": 69,
+          "x": 2140,
+          "y": 238,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 47,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "e20c11a2-6e50-43f4-9f43-2df854401a7a",
+          "width": 103,
+          "x": 2382,
+          "y": 342,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 47,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "99ddadd8-b019-4301-9c9c-3ade4440ef03",
+          "width": 63,
+          "x": 1230,
+          "y": 44,
           "zOrder": 81,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 164,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "fff08996-7853-4c83-bf35-8647d964f02e",
-          "width": 164,
-          "x": 1753,
-          "y": 294,
-          "zOrder": 82,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 135,
-          "layer": "",
-          "name": "Platform5",
-          "persistentUuid": "aeb59d85-429a-49d3-a546-eb362a9e8046",
-          "width": 135,
-          "x": 1698,
-          "y": 454,
-          "zOrder": 83,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "02729624-72ad-4de7-a930-2ad0acfe88d1",
-          "width": 64,
-          "x": 2029,
-          "y": 434,
-          "zOrder": 84,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 120,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "a5183f10-fc9c-4c2f-a189-7dee567dd2d8",
-          "width": 170,
-          "x": 2181,
-          "y": 368,
-          "zOrder": 85,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 113,
-          "layer": "",
-          "name": "Platform2",
-          "persistentUuid": "471ff808-656d-46ac-89a7-277dc7dbc360",
-          "width": 113,
-          "x": 904,
-          "y": 500,
-          "zOrder": 86,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "0ec0fe14-5fe9-4440-ade3-8becf2da86bf",
-          "width": 75,
-          "x": 2773,
-          "y": 270,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "c6554f46-5f46-4aa9-a2e4-39ccc0bacce4",
-          "width": 75,
-          "x": 2698,
-          "y": 270,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "7316f794-0320-41de-a8c0-76660cad72a0",
-          "width": 75,
-          "x": 2698,
-          "y": 345,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "89435c5e-ca94-4ad9-8d77-e05611f1d978",
-          "width": 75,
-          "x": 2773,
-          "y": 345,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "7d5985c0-43bf-42b1-b399-530349756f31",
-          "width": 75,
-          "x": 2699,
-          "y": 420,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "9189eb03-f09c-44f6-b0ff-5a089f1f45bc",
-          "width": 75,
-          "x": 2774,
-          "y": 420,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "716fb568-0ceb-4ea8-ac6f-9f238b85078c",
-          "width": 75,
-          "x": 2774,
-          "y": 495,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "f40ab1d2-0041-4218-b497-9ffe66d02f88",
-          "width": 75,
-          "x": 2699,
-          "y": 495,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "20f58828-0d38-4a77-96b2-032e0d56186d",
-          "width": 75,
-          "x": 2549,
-          "y": 269,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "574889ec-bff0-4bed-b4c3-c76cd0cbf155",
-          "width": 75,
-          "x": 2624,
-          "y": 269,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "7bdda0a1-a3b5-4247-9ab8-3e9774f423b5",
-          "width": 75,
-          "x": 2624,
-          "y": 344,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "537447eb-785d-43ed-8020-e9e721421403",
-          "width": 58,
-          "x": 641,
-          "y": 255,
-          "zOrder": 88,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 75,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "317c8d1a-36df-4bad-808e-6a205fbd92b3",
-          "width": 75,
-          "x": 1362,
-          "y": 359,
-          "zOrder": 89,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 93,
-          "layer": "Background",
-          "name": "Alcohol",
-          "persistentUuid": "a1cba23f-e35b-4458-9443-696197088993",
-          "width": 93,
-          "x": 507,
-          "y": 110,
-          "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7161,7 +6567,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -7180,16 +6585,17 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "5e88b7b271d512d5836620a21c240e2289663063753413f968f9e2b27dc4afe0_Desert Tile Platform Left",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
+                      "hasCustomCollisionMask": true,
+                      "image": "5e88b7b271d512d5836620a21c240e2289663063753413f968f9e2b27dc4afe0_Desert Tile Platform Left",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7202,7 +6608,34 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 192,
+                            "y": 0
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 143,
+                            "y": 47
+                          },
+                          {
+                            "x": 46,
+                            "y": 47
+                          },
+                          {
+                            "x": 0,
+                            "y": 25.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -7211,7 +6644,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -7233,7 +6665,7 @@
               "Width": 200,
               "Height": 0,
               "Clockwise": true,
-              "HorizontalEdgeDuration": 2,
+              "HorizontalEdgeDuration": 3,
               "VerticalEdgeDuration": 0,
               "Left": 1,
               "Top": 1,
@@ -7256,7 +6688,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
+                      "image": "assets\\Platform 2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7272,20 +6704,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 61,
-                            "y": 11.5
+                            "x": 11,
+                            "y": 14
                           },
                           {
-                            "x": 4,
-                            "y": 11.5
+                            "x": 263,
+                            "y": 14
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 257.5607604980469,
+                            "y": 46.77951431274414
                           },
                           {
-                            "x": 62.5,
-                            "y": 0
+                            "x": 182.0052032470703,
+                            "y": 100.11284637451172
+                          },
+                          {
+                            "x": 99.22743225097656,
+                            "y": 88.44618225097656
+                          },
+                          {
+                            "x": 13.11631965637207,
+                            "y": 50.11284637451172
                           }
                         ]
                       ]
@@ -7297,93 +6737,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Platform5",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": false,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "RectangleMovement",
-              "type": "RectangleMovement::RectangleMovement",
-              "Width": 200,
-              "Height": 0,
-              "Clockwise": true,
-              "HorizontalEdgeDuration": 5,
-              "VerticalEdgeDuration": 0,
-              "Left": 1,
-              "Top": 1,
-              "Progress": 1,
-              "OldX": 1,
-              "OldY": 1,
-              "Easing": "easeInOutSine",
-              "InitialPosition": "Top-left corner",
-              "ToogleClockwise": false
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 61,
-                            "y": 11.5
-                          },
-                          {
-                            "x": 4,
-                            "y": 11.5
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 62.5,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -7452,7 +6805,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -7530,7 +6882,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -7636,7 +6987,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Alcohol",
           "tags": "",
@@ -7969,7 +7319,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -8019,7 +7368,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -8069,7 +7417,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -8111,7 +7458,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -8153,7 +7499,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -8458,7 +7803,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "d3dd6c400fba9c7aabb1add0a70bfb25b3239d7ed02fcc41f946cbf773fac79f",
           "name": "FullFountainBlue",
           "tags": "",
@@ -8591,7 +7935,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
           "name": "Player",
           "tags": "",
@@ -9467,11 +8810,11 @@
           "behaviors": []
         },
         {
-          "assetStoreId": "1b661220e71e589d8c84b24b47fc825e412b4f71e2023384a8af4528ff9e1458",
+          "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
           "height": 128,
-          "name": "Tile10TiledSprite",
+          "name": "BackgroundColoredGrass",
           "tags": "",
-          "texture": "tiled_Tile 10 tiled sprite.png",
+          "texture": "tiled_Background Colored Grass.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -9479,11 +8822,11 @@
           "behaviors": []
         },
         {
-          "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
+          "assetStoreId": "1b661220e71e589d8c84b24b47fc825e412b4f71e2023384a8af4528ff9e1458",
           "height": 128,
-          "name": "BackgroundColoredGrass",
+          "name": "Tile10TiledSprite",
           "tags": "",
-          "texture": "tiled_Background Colored Grass.png",
+          "texture": "tiled_Tile 10 tiled sprite.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -9498,18 +8841,6 @@
           "texture": "tiled_Background Colored Desert.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "36bd5f09d698924d759e040a1c512bbca8bb719a2ed4afbb6b995e876374c8fe",
-          "height": 2048,
-          "name": "TilesetPiece13",
-          "tags": "",
-          "texture": "tiled_Tileset Piece 13.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 2048,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -9908,6 +9239,16 @@
                         "Player",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Age",
+                        "=",
+                        "1"
+                      ]
                     }
                   ]
                 }
@@ -9927,7 +9268,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "Booze",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9944,17 +9284,6 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Enemy::IsFlyDead"
-                      },
-                      "parameters": [
-                        "",
-                        "Alcohol",
-                        ""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "CollisionNP"
@@ -10044,6 +9373,16 @@
                             "",
                             "Player",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Age",
+                            "=",
+                            "1"
                           ]
                         }
                       ]
@@ -10627,7 +9966,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Level6\"",
+                        "\"Level4\"",
                         ""
                       ]
                     }
@@ -12012,7 +11351,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -12062,7 +11400,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -12148,7 +11485,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform5",
           "tags": "",
@@ -12234,7 +11570,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -12303,7 +11638,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -12381,7 +11715,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -12487,7 +11820,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Alcohol",
           "tags": "",
@@ -12808,7 +12140,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -12858,7 +12189,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -12908,7 +12238,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -12950,7 +12279,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -12992,7 +12320,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -13297,7 +12624,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "d3dd6c400fba9c7aabb1add0a70bfb25b3239d7ed02fcc41f946cbf773fac79f",
           "name": "FullFountainBlue",
           "tags": "",
@@ -13430,7 +12756,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
           "name": "Player",
           "tags": "",
@@ -14759,6 +14084,16 @@
                         "Player",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Age",
+                        "=",
+                        "1"
+                      ]
                     }
                   ]
                 }
@@ -14778,7 +14113,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "Booze",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14795,17 +14129,6 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Enemy::IsFlyDead"
-                      },
-                      "parameters": [
-                        "",
-                        "Alcohol",
-                        ""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "CollisionNP"
@@ -14895,6 +14218,16 @@
                             "",
                             "Player",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Age",
+                            "=",
+                            "1"
                           ]
                         }
                       ]
@@ -15150,6 +14483,7 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
+          "folded": true,
           "name": "End game logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16178,8 +15512,8 @@
     {
       "b": 26,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level3",
-      "name": "Level3",
+      "mangledName": "Level5",
+      "name": "Level5",
       "r": 11,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -16195,7 +15529,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7752190992063892,
+        "zoomFactor": 0.5751709533766701,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16293,22 +15627,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 349,
-          "layer": "",
-          "name": "Platform4",
-          "persistentUuid": "dac6a253-9929-4369-b079-5ea42e96d4da",
-          "width": 349,
-          "x": 2513,
-          "y": 262,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 928,
           "layer": "",
           "name": "LeftBoundary",
@@ -16330,8 +15648,8 @@
           "name": "Checkpoint",
           "persistentUuid": "8ea01fcc-2da7-4eb2-966c-1b50c561bf00",
           "width": 53,
-          "x": 865,
-          "y": -14,
+          "x": 1512,
+          "y": 332,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -16354,14 +15672,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 95.92308044433594,
+          "customSize": true,
+          "depth": 0,
+          "height": 67,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "5b30eed8-a7bd-4adc-b2da-7eec9e9adc87",
-          "width": 261,
-          "x": 453,
-          "y": 332,
+          "width": 67,
+          "x": 519,
+          "y": 210,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -16369,14 +15688,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 99,
+          "customSize": true,
+          "depth": 0,
+          "height": 93,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "e05f88cc-8c5c-42d6-8ebd-a02a3a933517",
-          "width": 269.3721008300781,
-          "x": 136,
-          "y": 268,
+          "width": 149,
+          "x": 162,
+          "y": 251,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -16508,31 +15828,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "222b9e40-b12f-4aee-98a3-a33074423ec8",
-          "width": 0,
-          "x": 1511,
-          "y": 276,
+          "width": 58,
+          "x": 1222,
+          "y": 441,
           "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 99,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "dcc76892-1e71-43b2-8fc9-5f72f8cd6970",
-          "width": 380,
-          "x": 1044,
-          "y": 349,
-          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16557,60 +15862,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 274,
-          "layer": "Background",
-          "name": "SkyBackground",
-          "persistentUuid": "0b67dbce-5b45-421c-95b8-78b41ab831ad",
-          "width": 982,
-          "x": 94,
-          "y": -152,
-          "zOrder": 70,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 784,
-          "layer": "Background",
-          "name": "BackgroundColoredDesert",
-          "persistentUuid": "79741113-4ad3-4d60-89b9-69cbdddf9192",
-          "width": 3176,
-          "x": -60,
-          "y": -192,
-          "zOrder": 71,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 45,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "6eff412c-b72b-4b00-bd8d-9279ba2ce902",
-          "width": 186,
-          "x": 386,
-          "y": 115,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "height": 63,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "f1eadfa0-f33b-4e21-ad23-4911db3d1e2e",
-          "width": 0,
-          "x": 789,
-          "y": 45,
+          "width": 63,
+          "x": 739,
+          "y": 355,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -16618,14 +15876,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 51,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "5206e180-03ac-4066-93c9-90a73aeb6256",
-          "width": 0,
-          "x": 921,
-          "y": 349,
+          "width": 51,
+          "x": 1012,
+          "y": 329,
           "zOrder": 77,
           "numberProperties": [],
           "stringProperties": [],
@@ -16635,13 +15894,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 47,
+          "height": 85,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "dc18cab8-d313-4258-9987-cc6895706957",
-          "width": 105,
-          "x": 1843,
-          "y": 275,
+          "width": 140,
+          "x": 1469,
+          "y": 394,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -16651,46 +15910,318 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 47,
+          "height": 114,
           "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "d9ce0c9d-4590-4a09-a393-8110e3ca952f",
-          "width": 69,
-          "x": 2140,
-          "y": 238,
-          "zOrder": 79,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 47,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "e20c11a2-6e50-43f4-9f43-2df854401a7a",
-          "width": 103,
-          "x": 2382,
-          "y": 342,
-          "zOrder": 80,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 47,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "99ddadd8-b019-4301-9c9c-3ade4440ef03",
-          "width": 63,
-          "x": 1230,
-          "y": 44,
+          "name": "Platform2",
+          "persistentUuid": "40168e3b-bbe4-4b85-bced-f76f40a4a370",
+          "width": 117,
+          "x": 1161,
+          "y": 211,
           "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 164,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "fff08996-7853-4c83-bf35-8647d964f02e",
+          "width": 164,
+          "x": 1753,
+          "y": 294,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 135,
+          "layer": "",
+          "name": "Platform5",
+          "persistentUuid": "aeb59d85-429a-49d3-a546-eb362a9e8046",
+          "width": 135,
+          "x": 1698,
+          "y": 454,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "02729624-72ad-4de7-a930-2ad0acfe88d1",
+          "width": 64,
+          "x": 2029,
+          "y": 434,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "a5183f10-fc9c-4c2f-a189-7dee567dd2d8",
+          "width": 170,
+          "x": 2181,
+          "y": 368,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 113,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "471ff808-656d-46ac-89a7-277dc7dbc360",
+          "width": 113,
+          "x": 904,
+          "y": 500,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "0ec0fe14-5fe9-4440-ade3-8becf2da86bf",
+          "width": 75,
+          "x": 2773,
+          "y": 270,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "c6554f46-5f46-4aa9-a2e4-39ccc0bacce4",
+          "width": 75,
+          "x": 2698,
+          "y": 270,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "7316f794-0320-41de-a8c0-76660cad72a0",
+          "width": 75,
+          "x": 2698,
+          "y": 345,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "89435c5e-ca94-4ad9-8d77-e05611f1d978",
+          "width": 75,
+          "x": 2773,
+          "y": 345,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "7d5985c0-43bf-42b1-b399-530349756f31",
+          "width": 75,
+          "x": 2699,
+          "y": 420,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "9189eb03-f09c-44f6-b0ff-5a089f1f45bc",
+          "width": 75,
+          "x": 2774,
+          "y": 420,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "716fb568-0ceb-4ea8-ac6f-9f238b85078c",
+          "width": 75,
+          "x": 2774,
+          "y": 495,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "f40ab1d2-0041-4218-b497-9ffe66d02f88",
+          "width": 75,
+          "x": 2699,
+          "y": 495,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "20f58828-0d38-4a77-96b2-032e0d56186d",
+          "width": 75,
+          "x": 2549,
+          "y": 269,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "574889ec-bff0-4bed-b4c3-c76cd0cbf155",
+          "width": 75,
+          "x": 2624,
+          "y": 269,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "7bdda0a1-a3b5-4247-9ab8-3e9774f423b5",
+          "width": 75,
+          "x": 2624,
+          "y": 344,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "537447eb-785d-43ed-8020-e9e721421403",
+          "width": 58,
+          "x": 641,
+          "y": 255,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "317c8d1a-36df-4bad-808e-6a205fbd92b3",
+          "width": 75,
+          "x": 1362,
+          "y": 359,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 93,
+          "layer": "Background",
+          "name": "Alcohol",
+          "persistentUuid": "a1cba23f-e35b-4458-9443-696197088993",
+          "width": 93,
+          "x": 507,
+          "y": 110,
+          "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16698,7 +16229,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -16717,17 +16247,16 @@
           ],
           "animations": [
             {
-              "name": "5e88b7b271d512d5836620a21c240e2289663063753413f968f9e2b27dc4afe0_Desert Tile Platform Left",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "5e88b7b271d512d5836620a21c240e2289663063753413f968f9e2b27dc4afe0_Desert Tile Platform Left",
+                      "hasCustomCollisionMask": false,
+                      "image": "47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16740,34 +16269,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 192,
-                            "y": 0
-                          },
-                          {
-                            "x": 190.5,
-                            "y": 25.5
-                          },
-                          {
-                            "x": 143,
-                            "y": 47
-                          },
-                          {
-                            "x": 46,
-                            "y": 47
-                          },
-                          {
-                            "x": 0,
-                            "y": 25.5
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -16776,7 +16278,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -16798,7 +16299,7 @@
               "Width": 200,
               "Height": 0,
               "Clockwise": true,
-              "HorizontalEdgeDuration": 3,
+              "HorizontalEdgeDuration": 2,
               "VerticalEdgeDuration": 0,
               "Left": 1,
               "Top": 1,
@@ -16821,7 +16322,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Platform 2.png",
+                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16837,28 +16338,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11,
-                            "y": 14
+                            "x": 61,
+                            "y": 11.5
                           },
                           {
-                            "x": 263,
-                            "y": 14
+                            "x": 4,
+                            "y": 11.5
                           },
                           {
-                            "x": 257.5607604980469,
-                            "y": 46.77951431274414
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 182.0052032470703,
-                            "y": 100.11284637451172
-                          },
-                          {
-                            "x": 99.22743225097656,
-                            "y": 88.44618225097656
-                          },
-                          {
-                            "x": 13.11631965637207,
-                            "y": 50.11284637451172
+                            "x": 62.5,
+                            "y": 0
                           }
                         ]
                       ]
@@ -16870,7 +16363,91 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Platform5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 200,
+              "Height": 0,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 5,
+              "VerticalEdgeDuration": 0,
+              "Left": 1,
+              "Top": 1,
+              "Progress": 1,
+              "OldX": 1,
+              "OldY": 1,
+              "Easing": "easeInOutSine",
+              "InitialPosition": "Top-left corner",
+              "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 61,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 4,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62.5,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -16939,7 +16516,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -17017,7 +16593,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -17123,7 +16698,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Alcohol",
           "tags": "",
@@ -17456,7 +17030,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -17506,7 +17079,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -17556,7 +17128,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -17598,7 +17169,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -17640,7 +17210,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -17945,7 +17514,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "d3dd6c400fba9c7aabb1add0a70bfb25b3239d7ed02fcc41f946cbf773fac79f",
           "name": "FullFountainBlue",
           "tags": "",
@@ -18078,7 +17646,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
           "name": "Player",
           "tags": "",
@@ -18954,11 +18521,11 @@
           "behaviors": []
         },
         {
-          "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
+          "assetStoreId": "1b661220e71e589d8c84b24b47fc825e412b4f71e2023384a8af4528ff9e1458",
           "height": 128,
-          "name": "BackgroundColoredGrass",
+          "name": "Tile10TiledSprite",
           "tags": "",
-          "texture": "tiled_Background Colored Grass.png",
+          "texture": "tiled_Tile 10 tiled sprite.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -18966,11 +18533,11 @@
           "behaviors": []
         },
         {
-          "assetStoreId": "1b661220e71e589d8c84b24b47fc825e412b4f71e2023384a8af4528ff9e1458",
+          "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
           "height": 128,
-          "name": "Tile10TiledSprite",
+          "name": "BackgroundColoredGrass",
           "tags": "",
-          "texture": "tiled_Tile 10 tiled sprite.png",
+          "texture": "tiled_Background Colored Grass.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
           "variables": [],
@@ -18985,6 +18552,18 @@
           "texture": "tiled_Background Colored Desert.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "36bd5f09d698924d759e040a1c512bbca8bb719a2ed4afbb6b995e876374c8fe",
+          "height": 2048,
+          "name": "TilesetPiece13",
+          "tags": "",
+          "texture": "tiled_Tileset Piece 13.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 2048,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -19383,6 +18962,16 @@
                         "Player",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Age",
+                        "=",
+                        "1"
+                      ]
                     }
                   ]
                 }
@@ -19402,7 +18991,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "Booze",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19419,17 +19007,6 @@
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Enemy::IsFlyDead"
-                      },
-                      "parameters": [
-                        "",
-                        "Alcohol",
-                        ""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "CollisionNP"
@@ -19519,6 +19096,16 @@
                             "",
                             "Player",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Age",
+                            "=",
+                            "1"
                           ]
                         }
                       ]
@@ -20102,7 +19689,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Level4\"",
+                        "\"Level6\"",
                         ""
                       ]
                     }
@@ -20802,8 +20389,8 @@
     {
       "b": 26,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Level",
-      "name": "Level",
+      "mangledName": "Level6",
+      "name": "Level6",
       "r": 11,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -20916,21 +20503,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 265.3482971191406,
-          "layer": "",
-          "name": "Platform4",
-          "persistentUuid": "dac6a253-9929-4369-b079-5ea42e96d4da",
-          "width": 320,
-          "x": 1802,
-          "y": 280,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 928,
           "layer": "",
@@ -20953,41 +20525,9 @@
           "name": "Checkpoint",
           "persistentUuid": "8ea01fcc-2da7-4eb2-966c-1b50c561bf00",
           "width": 53,
-          "x": 853,
-          "y": 265,
+          "x": 1512,
+          "y": 332,
           "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 61,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "cf7bf264-ecd2-4da5-a450-bccd03660e3e",
-          "width": 61,
-          "x": 1621,
-          "y": 155,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 60,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "8641a775-4dc9-4396-ac7c-ba8b7a00dba7",
-          "width": 60,
-          "x": 1258,
-          "y": 306,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21009,29 +20549,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 97.86228942871094,
-          "layer": "",
-          "name": "Platform3",
-          "persistentUuid": "897ece0a-9bc4-470b-9d60-5bdc29242124",
-          "width": 232.15505981445312,
-          "x": 409,
-          "y": 388,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 95.92308044433594,
+          "customSize": true,
+          "depth": 0,
+          "height": 67,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "5b30eed8-a7bd-4adc-b2da-7eec9e9adc87",
-          "width": 261,
-          "x": 697,
-          "y": 321,
+          "width": 67,
+          "x": 519,
+          "y": 210,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -21039,14 +20565,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 99,
+          "customSize": true,
+          "depth": 0,
+          "height": 93,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "e05f88cc-8c5c-42d6-8ebd-a02a3a933517",
-          "width": 269.3721008300781,
-          "x": 106,
-          "y": 274,
+          "width": 149,
+          "x": 162,
+          "y": 251,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -21070,29 +20597,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 55,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "1989e88d-b9a1-4d50-bf0e-59255f899d23",
-          "width": 55,
-          "x": 971,
-          "y": 296,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 928,
           "layer": "",
           "name": "RightBoundary",
           "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
           "width": 160,
-          "x": 2112,
-          "y": -256,
+          "x": 2842,
+          "y": -237,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -21101,11 +20612,12 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 0,
           "height": 128,
           "layer": "",
           "name": "TopBoundary",
           "persistentUuid": "4381c067-2682-4f00-9a24-ff28fa12b1d8",
-          "width": 2272,
+          "width": 3002,
           "x": 0,
           "y": -256,
           "zOrder": 59,
@@ -21116,11 +20628,12 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 0,
           "height": 128,
           "layer": "",
           "name": "BottomBoundary",
           "persistentUuid": "00f86cf3-18b0-4d71-9ce8-952dfc4e6b5c",
-          "width": 2272,
+          "width": 2993,
           "x": 0,
           "y": 544,
           "zOrder": 60,
@@ -21152,8 +20665,8 @@
           "name": "FullFountainBlue",
           "persistentUuid": "9ea7251a-4371-46df-b096-1eaf9ac91b37",
           "width": 60,
-          "x": 2017,
-          "y": 120,
+          "x": 2717,
+          "y": 89,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -21168,8 +20681,8 @@
           "name": "Player",
           "persistentUuid": "d18cbb05-c4c3-45fa-9f0d-318d3a0257d0",
           "width": 87,
-          "x": 170,
-          "y": 148,
+          "x": 189,
+          "y": 156,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -21192,31 +20705,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "222b9e40-b12f-4aee-98a3-a33074423ec8",
-          "width": 0,
-          "x": 1467,
-          "y": 280,
+          "width": 58,
+          "x": 1222,
+          "y": 441,
           "zOrder": 66,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 99,
-          "layer": "",
-          "name": "Platform1",
-          "persistentUuid": "dcc76892-1e71-43b2-8fc9-5f72f8cd6970",
-          "width": 380,
-          "x": 1044,
-          "y": 349,
-          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21241,14 +20739,366 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 839,
+          "height": 63,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "f1eadfa0-f33b-4e21-ad23-4911db3d1e2e",
+          "width": 63,
+          "x": 739,
+          "y": 355,
+          "zOrder": 73,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 51,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "5206e180-03ac-4066-93c9-90a73aeb6256",
+          "width": 51,
+          "x": 1012,
+          "y": 329,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 85,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "dc18cab8-d313-4258-9987-cc6895706957",
+          "width": 140,
+          "x": 1469,
+          "y": 394,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 114,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "40168e3b-bbe4-4b85-bced-f76f40a4a370",
+          "width": 117,
+          "x": 1161,
+          "y": 211,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 164,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "fff08996-7853-4c83-bf35-8647d964f02e",
+          "width": 164,
+          "x": 1753,
+          "y": 294,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 135,
+          "layer": "",
+          "name": "Platform5",
+          "persistentUuid": "aeb59d85-429a-49d3-a546-eb362a9e8046",
+          "width": 135,
+          "x": 1698,
+          "y": 454,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "02729624-72ad-4de7-a930-2ad0acfe88d1",
+          "width": 64,
+          "x": 2029,
+          "y": 434,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 120,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "a5183f10-fc9c-4c2f-a189-7dee567dd2d8",
+          "width": 170,
+          "x": 2181,
+          "y": 368,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 113,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "471ff808-656d-46ac-89a7-277dc7dbc360",
+          "width": 113,
+          "x": 904,
+          "y": 500,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "0ec0fe14-5fe9-4440-ade3-8becf2da86bf",
+          "width": 75,
+          "x": 2773,
+          "y": 270,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "c6554f46-5f46-4aa9-a2e4-39ccc0bacce4",
+          "width": 75,
+          "x": 2698,
+          "y": 270,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "7316f794-0320-41de-a8c0-76660cad72a0",
+          "width": 75,
+          "x": 2698,
+          "y": 345,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "89435c5e-ca94-4ad9-8d77-e05611f1d978",
+          "width": 75,
+          "x": 2773,
+          "y": 345,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "7d5985c0-43bf-42b1-b399-530349756f31",
+          "width": 75,
+          "x": 2699,
+          "y": 420,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "9189eb03-f09c-44f6-b0ff-5a089f1f45bc",
+          "width": 75,
+          "x": 2774,
+          "y": 420,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "716fb568-0ceb-4ea8-ac6f-9f238b85078c",
+          "width": 75,
+          "x": 2774,
+          "y": 495,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "f40ab1d2-0041-4218-b497-9ffe66d02f88",
+          "width": 75,
+          "x": 2699,
+          "y": 495,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "20f58828-0d38-4a77-96b2-032e0d56186d",
+          "width": 75,
+          "x": 2549,
+          "y": 269,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "574889ec-bff0-4bed-b4c3-c76cd0cbf155",
+          "width": 75,
+          "x": 2624,
+          "y": 269,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "7bdda0a1-a3b5-4247-9ab8-3e9774f423b5",
+          "width": 75,
+          "x": 2624,
+          "y": 344,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "537447eb-785d-43ed-8020-e9e721421403",
+          "width": 58,
+          "x": 641,
+          "y": 255,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "317c8d1a-36df-4bad-808e-6a205fbd92b3",
+          "width": 75,
+          "x": 1362,
+          "y": 359,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 93,
           "layer": "Background",
-          "name": "BackgroundColoredGrass",
-          "persistentUuid": "71190124-e6dd-477f-bac1-7676c9dcd717",
-          "width": 2272,
-          "x": 51,
-          "y": -237,
-          "zOrder": 70,
+          "name": "Alcohol",
+          "persistentUuid": "a1cba23f-e35b-4458-9443-696197088993",
+          "width": 93,
+          "x": 507,
+          "y": 110,
+          "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21256,7 +21106,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform1",
           "tags": "",
@@ -21283,8 +21132,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Platform 1.png",
+                      "hasCustomCollisionMask": false,
+                      "image": "47f2283327f1680c76d51acc8510f754c1e944641077f3a1c26d00bcbd16fd57_Tileset Piece 14.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21297,26 +21146,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 11,
-                            "y": 14
-                          },
-                          {
-                            "x": 259,
-                            "y": 14
-                          },
-                          {
-                            "x": 246,
-                            "y": 68.25
-                          },
-                          {
-                            "x": 32.5,
-                            "y": 69.75
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -21325,7 +21155,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform2",
           "tags": "",
@@ -21347,7 +21176,7 @@
               "Width": 200,
               "Height": 0,
               "Clockwise": true,
-              "HorizontalEdgeDuration": 3,
+              "HorizontalEdgeDuration": 2,
               "VerticalEdgeDuration": 0,
               "Left": 1,
               "Top": 1,
@@ -21370,7 +21199,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Platform 2.png",
+                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21386,28 +21215,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11,
-                            "y": 14
+                            "x": 61,
+                            "y": 11.5
                           },
                           {
-                            "x": 263,
-                            "y": 14
+                            "x": 4,
+                            "y": 11.5
                           },
                           {
-                            "x": 257.5607604980469,
-                            "y": 46.77951431274414
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 182.0052032470703,
-                            "y": 100.11284637451172
-                          },
-                          {
-                            "x": 99.22743225097656,
-                            "y": 88.44618225097656
-                          },
-                          {
-                            "x": 13.11631965637207,
-                            "y": 50.11284637451172
+                            "x": 62.5,
+                            "y": 0
                           }
                         ]
                       ]
@@ -21419,7 +21240,91 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Platform5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "RectangleMovement",
+              "type": "RectangleMovement::RectangleMovement",
+              "Width": 200,
+              "Height": 0,
+              "Clockwise": true,
+              "HorizontalEdgeDuration": 5,
+              "VerticalEdgeDuration": 0,
+              "Left": 1,
+              "Top": 1,
+              "Progress": 1,
+              "OldX": 1,
+              "OldY": 1,
+              "Easing": "easeInOutSine",
+              "InitialPosition": "Top-left corner",
+              "ToogleClockwise": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "7ae5cb8ceac2358b2318dee281077e1a536487677fd321fe923540e952cdbd32_Platform.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 61,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 4,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 62.5,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "name": "Platform3",
           "tags": "",
@@ -21488,7 +21393,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform4",
           "tags": "",
@@ -21507,16 +21411,17 @@
           ],
           "animations": [
             {
-              "name": "",
+              "name": "assets\\Corner platform",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\Corner platform.png",
+                      "image": "assets\\Corner platform3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21532,24 +21437,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 18.75,
-                            "y": 22
+                            "x": 0,
+                            "y": 1
                           },
                           {
-                            "x": 320,
-                            "y": 22
+                            "x": 500,
+                            "y": 0
                           },
                           {
-                            "x": 320,
-                            "y": 265
+                            "x": 494.5,
+                            "y": 478
                           },
                           {
-                            "x": 201.25,
-                            "y": 265
+                            "x": 463.5,
+                            "y": 478
                           },
                           {
-                            "x": 23.125,
-                            "y": 90.3125
+                            "x": 240.5,
+                            "y": 350
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 140
                           }
                         ]
                       ]
@@ -21561,7 +21470,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Checkpoint",
           "tags": "",
@@ -21667,7 +21575,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Alcohol",
           "tags": "",
@@ -22000,7 +21907,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "LeftBoundary",
           "tags": "",
@@ -22050,7 +21956,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "RightBoundary",
           "tags": "",
@@ -22100,7 +22005,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TopBoundary",
           "tags": "",
@@ -22142,7 +22046,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BottomBoundary",
           "tags": "",
@@ -22184,7 +22087,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BoundaryJumpThrough",
           "tags": "",
@@ -22489,7 +22391,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "d3dd6c400fba9c7aabb1add0a70bfb25b3239d7ed02fcc41f946cbf773fac79f",
           "name": "FullFountainBlue",
           "tags": "",
@@ -22622,7 +22523,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ff79c0bbb0f74a5fb5a5e15b8adb257d6d58ef987e809119a6bb2fafe4001099",
           "name": "Player",
           "tags": "",
@@ -23462,6 +23362,54 @@
           ]
         },
         {
+          "assetStoreId": "715bdec225a9f2e5fad34f80d8c9a8232ba7991f9dad2e17cb4007f1827dd08b",
+          "height": 128,
+          "name": "TilesetPiece3",
+          "tags": "",
+          "texture": "tiled_Tileset Piece 3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "1cf0454ce2e8d541b37b2d8e18a82aae238b9e1903bac5c708befeef4e9d3e50",
+          "height": 128,
+          "name": "PlatformMid",
+          "tags": "",
+          "texture": "tiled_Platform Mid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "711300ce5e3734593cb6aef03e87795a51542f2e616303c2c8346703c56eb939",
+          "height": 128,
+          "name": "SkyBackground",
+          "tags": "",
+          "texture": "tiled_Sky Background.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "1b661220e71e589d8c84b24b47fc825e412b4f71e2023384a8af4528ff9e1458",
+          "height": 128,
+          "name": "Tile10TiledSprite",
+          "tags": "",
+          "texture": "tiled_Tile 10 tiled sprite.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
           "assetStoreId": "775a20210080e1e18a55b14c9ebaaf24eb4b9ea93ceb7016d0f46a38e478dcfe",
           "height": 128,
           "name": "BackgroundColoredGrass",
@@ -23469,6 +23417,30 @@
           "texture": "tiled_Background Colored Grass.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "8ff00334308f34d7bb1901608f2e0f2a237804324e27f4e1cc3246368881b3d9",
+          "height": 128,
+          "name": "BackgroundColoredDesert",
+          "tags": "",
+          "texture": "tiled_Background Colored Desert.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "36bd5f09d698924d759e040a1c512bbca8bb719a2ed4afbb6b995e876374c8fe",
+          "height": 2048,
+          "name": "TilesetPiece13",
+          "tags": "",
+          "texture": "tiled_Tileset Piece 13.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 2048,
           "variables": [],
           "effects": [],
           "behaviors": []
@@ -23867,6 +23839,16 @@
                         "Player",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "Age",
+                        "=",
+                        "1"
+                      ]
                     }
                   ]
                 }
@@ -23992,6 +23974,16 @@
                             "Player",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "Age",
+                            "=",
+                            "1"
+                          ]
                         }
                       ]
                     }
@@ -24030,7 +24022,7 @@
                       },
                       "parameters": [
                         "Alcohol",
-                        "<",
+                        ">",
                         "Background.BoundingBoxBottom()"
                       ]
                     }
@@ -24042,18 +24034,6 @@
                       },
                       "parameters": [
                         "Alcohol",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "crickets.aac",
-                        "",
-                        "",
                         ""
                       ]
                     }
@@ -24586,7 +24566,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Level3\"",
+                        "\"Level2\"",
                         ""
                       ]
                     }
@@ -45012,7 +44992,6 @@
           ],
           "objects": [
             {
-              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Thumb",
               "tags": "",
@@ -45036,7 +45015,6 @@
               ]
             },
             {
-              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "Border",
               "tags": "",
