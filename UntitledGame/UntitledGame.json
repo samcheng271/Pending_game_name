@@ -1557,6 +1557,106 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Forest Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Forest Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/9c836518da4f93f1a442e4beaa4023bdde907296b1a03f5562a73693fac0f778_tiled_Forest Background.png",
+          "name": "tiled_Forest Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image_lDX2v8kd_1690431671996_raw.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "image_lDX2v8kd_1690431671996_raw.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "daily_download_20181018_128.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "daily_download_20181018_128.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "2019-12-09_-_Retro_Forest_-_David_Fesliyan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2019-12-09_-_Retro_Forest_-_David_Fesliyan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sinnesloschen-beam-117362.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sinnesloschen-beam-117362.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "z3r0-8bitSyndrome.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "z3r0-8bitSyndrome.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "scifi.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "scifi.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "abandoned.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "abandoned.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "2019-01-02_-_8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2019-01-02_-_8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "daily_download_20181018_129.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "daily_download_20181018_129.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4376,6 +4476,18 @@
                         "\"Checkpoint\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "2019-12-09_-_Retro_Forest_-_David_Fesliyan.mp3",
+                        "yes",
+                        "80",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -6096,7 +6208,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34974465163358687,
+        "zoomFactor": 0.21266950395909995,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9013,6 +9125,18 @@
                         "Player.X()",
                         "Player.Y()",
                         "\"Checkpoint\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "sinnesloschen-beam-117362.mp3",
+                        "yes",
+                        "80",
                         ""
                       ]
                     }
@@ -13604,6 +13728,18 @@
                         "\"Checkpoint\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "sinnesloschen-beam-117362.mp3",
+                        "yes",
+                        "80",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -15317,7 +15453,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22725389382878988,
+        "zoomFactor": 0.23491697014071625,
         "windowMask": false
       },
       "objectsGroups": [
@@ -18463,6 +18599,18 @@
                         "\"Checkpoint\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "z3r0-8bitSyndrome.wav",
+                        "yes",
+                        "80",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -19459,7 +19607,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"End\"",
+                        "\"Level6\"",
                         ""
                       ]
                     }
@@ -20176,7 +20324,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3383358549274534,
+        "zoomFactor": 0.20573214801975723,
         "windowMask": false
       },
       "objectsGroups": [
@@ -20933,6 +21081,22 @@
           "x": 1473,
           "y": 47,
           "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1040,
+          "layer": "",
+          "name": "ForestBackground",
+          "persistentUuid": "3c97ef85-267b-439b-96ff-49cdd835cad5",
+          "width": 3074,
+          "x": 36,
+          "y": -255,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23292,6 +23456,28 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "90cac64ec9901c742b38aea323e8c52dc954197bfb5511ef86067aa187ac06c4",
+          "height": 128,
+          "name": "ForestBackground",
+          "tags": "",
+          "texture": "scifi.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Brightness",
+              "name": "Effect",
+              "doubleParameters": {
+                "brightness": 0.7
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
         }
       ],
       "events": [
@@ -23416,6 +23602,18 @@
                         "Player.X()",
                         "Player.Y()",
                         "\"Checkpoint\"",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "2019-01-02_-_8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3",
+                        "yes",
+                        "80",
                         ""
                       ]
                     }
@@ -25131,7 +25329,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6567637531652014,
+        "zoomFactor": 0.3166225987450343,
         "windowMask": false
       },
       "objectsGroups": [
@@ -25327,8 +25525,8 @@
           "name": "FullFountainBlue",
           "persistentUuid": "9ea7251a-4371-46df-b096-1eaf9ac91b37",
           "width": 60,
-          "x": 1877,
-          "y": 138,
+          "x": 621,
+          "y": 173,
           "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
@@ -25343,8 +25541,8 @@
           "name": "Player",
           "persistentUuid": "d18cbb05-c4c3-45fa-9f0d-318d3a0257d0",
           "width": 87,
-          "x": 1584,
-          "y": 230,
+          "x": 328,
+          "y": 265,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -25390,8 +25588,8 @@
           "name": "Platform1",
           "persistentUuid": "0ec0fe14-5fe9-4440-ade3-8becf2da86bf",
           "width": 75,
-          "x": 1933,
-          "y": 319,
+          "x": 677,
+          "y": 354,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25406,8 +25604,8 @@
           "name": "Platform1",
           "persistentUuid": "c6554f46-5f46-4aa9-a2e4-39ccc0bacce4",
           "width": 75,
-          "x": 1858,
-          "y": 319,
+          "x": 602,
+          "y": 354,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25422,8 +25620,8 @@
           "name": "Platform1",
           "persistentUuid": "7316f794-0320-41de-a8c0-76660cad72a0",
           "width": 75,
-          "x": 1858,
-          "y": 394,
+          "x": 602,
+          "y": 429,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25438,8 +25636,8 @@
           "name": "Platform1",
           "persistentUuid": "89435c5e-ca94-4ad9-8d77-e05611f1d978",
           "width": 75,
-          "x": 1933,
-          "y": 394,
+          "x": 677,
+          "y": 429,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25454,8 +25652,8 @@
           "name": "Platform1",
           "persistentUuid": "7d5985c0-43bf-42b1-b399-530349756f31",
           "width": 75,
-          "x": 2004,
-          "y": 318,
+          "x": 748,
+          "y": 353,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25470,8 +25668,8 @@
           "name": "Platform1",
           "persistentUuid": "20f58828-0d38-4a77-96b2-032e0d56186d",
           "width": 75,
-          "x": 1709,
-          "y": 318,
+          "x": 453,
+          "y": 353,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25486,8 +25684,8 @@
           "name": "Platform1",
           "persistentUuid": "574889ec-bff0-4bed-b4c3-c76cd0cbf155",
           "width": 75,
-          "x": 1784,
-          "y": 318,
+          "x": 528,
+          "y": 353,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25502,8 +25700,8 @@
           "name": "Platform1",
           "persistentUuid": "7bdda0a1-a3b5-4247-9ab8-3e9774f423b5",
           "width": 75,
-          "x": 1784,
-          "y": 393,
+          "x": 528,
+          "y": 428,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25518,8 +25716,8 @@
           "name": "Platform1",
           "persistentUuid": "cbf96804-611a-4c7a-bc02-02d5f484e8cc",
           "width": 75,
-          "x": 1634,
-          "y": 317,
+          "x": 378,
+          "y": 352,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25534,8 +25732,8 @@
           "name": "Platform1",
           "persistentUuid": "3066ab9f-5435-4cba-834d-8c7dcb63305e",
           "width": 75,
-          "x": 1540,
-          "y": 320,
+          "x": 284,
+          "y": 355,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -25550,8 +25748,8 @@
           "name": "Lore",
           "persistentUuid": "76e12c37-5feb-4b89-8559-65fb941043c6",
           "width": 420,
-          "x": 1469,
-          "y": 90,
+          "x": 213,
+          "y": 125,
           "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
@@ -25569,6 +25767,22 @@
           "x": 1688,
           "y": -17,
           "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 981,
+          "layer": "",
+          "name": "ForestBackground",
+          "persistentUuid": "36289f69-f93b-41e8-82bf-f568fdfe79ca",
+          "width": 3219,
+          "x": -225,
+          "y": -337,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -28013,6 +28227,18 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "90cac64ec9901c742b38aea323e8c52dc954197bfb5511ef86067aa187ac06c4",
+          "height": 128,
+          "name": "ForestBackground",
+          "tags": "",
+          "texture": "abandoned.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 128,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -29151,7 +29377,6 @@
           "colorG": 16,
           "colorR": 189,
           "creationTime": 0,
-          "folded": true,
           "name": "Game environment",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29390,6 +29615,18 @@
                   "parameters": [
                     "Player",
                     "\"AgeTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "daily_download_20181018_129.mp3",
+                    "yes",
+                    "80",
+                    ""
                   ]
                 }
               ]
