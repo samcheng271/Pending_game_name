@@ -1657,6 +1657,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wall Fountain Basin Blue_Rippling_1 - Copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1831,7 +1840,7 @@
           "name": "Checkpoint",
           "persistentUuid": "8ea01fcc-2da7-4eb2-966c-1b50c561bf00",
           "width": 53,
-          "x": 853,
+          "x": 797,
           "y": 265,
           "zOrder": 31,
           "numberProperties": [],
@@ -1863,8 +1872,8 @@
           "name": "Alcohol",
           "persistentUuid": "8641a775-4dc9-4396-ac7c-ba8b7a00dba7",
           "width": 60,
-          "x": 1258,
-          "y": 306,
+          "x": 1197,
+          "y": 285,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1941,22 +1950,6 @@
           "x": 1867,
           "y": 186,
           "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 55,
-          "layer": "",
-          "name": "Alcohol",
-          "persistentUuid": "1989e88d-b9a1-4d50-bf0e-59255f899d23",
-          "width": 55,
-          "x": 971,
-          "y": 296,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2465,7 +2458,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2494,7 +2487,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2523,7 +2516,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6208,7 +6201,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21266950395909995,
+        "zoomFactor": 0.41282536145602783,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6704,6 +6697,70 @@
           "x": 1230,
           "y": 44,
           "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "9c9e18a2-56d7-4066-a206-34745ba15b66",
+          "width": 68,
+          "x": 1167,
+          "y": 250,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 71,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "721fb354-cfba-4495-9b9c-027bdbcc7674",
+          "width": 71,
+          "x": 770,
+          "y": 343,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 75,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "94f62145-5533-4e17-b769-2501b8c81934",
+          "width": 75,
+          "x": 1832,
+          "y": 189,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 73,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "ef1db7b2-ecd7-4f46-b559-b3c4f1be7e10",
+          "width": 73,
+          "x": 2391,
+          "y": 228,
+          "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -15453,7 +15510,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.23491697014071625,
+        "zoomFactor": 0.38633161950894235,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16117,6 +16174,86 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 55,
+          "layer": "",
+          "name": "Checkpoint2",
+          "persistentUuid": "7b8e9809-1e51-431f-9d74-ffb806c41f29",
+          "width": 55,
+          "x": 1499,
+          "y": 325,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 76,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "f3090972-24fb-47d9-ab9b-1ff559f80f16",
+          "width": 79,
+          "x": 896,
+          "y": 265,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 71,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "49afad63-62c9-4123-9104-8d794c22ecbb",
+          "width": 71,
+          "x": 1371,
+          "y": 167,
+          "zOrder": 91,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "00a7db6b-3a91-42e7-b00b-ef6c4737b1e7",
+          "width": 68,
+          "x": 2372,
+          "y": 274,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 63,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "b83ea436-a650-495a-a1eb-709b760dd9cc",
+          "width": 79,
+          "x": 1852,
+          "y": 183,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16492,7 +16629,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Checkpoint",
+          "name": "Checkpoint2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -16516,7 +16653,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16545,7 +16682,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16574,7 +16711,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -18635,7 +18772,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "Checkpoint",
+                        "Checkpoint2",
                         "",
                         "",
                         ""
@@ -18647,7 +18784,7 @@
                         "value": "AnimationName"
                       },
                       "parameters": [
-                        "Checkpoint",
+                        "Checkpoint2",
                         "\"Activate\""
                       ]
                     }
@@ -18688,7 +18825,7 @@
                           },
                           "parameters": [
                             "",
-                            "Checkpoint"
+                            "Checkpoint2"
                           ]
                         }
                       ],
@@ -18698,7 +18835,7 @@
                             "value": "SetAnimationName"
                           },
                           "parameters": [
-                            "Checkpoint",
+                            "Checkpoint2",
                             "\"InActive\""
                           ]
                         }
@@ -18727,8 +18864,8 @@
                           "parameters": [
                             "",
                             "Player",
-                            "Checkpoint.X()",
-                            "Checkpoint.Y()",
+                            "Checkpoint2.X()",
+                            "Checkpoint2.Y()",
                             "\"Checkpoint\"",
                             ""
                           ]
@@ -18738,7 +18875,7 @@
                             "value": "SetAnimationName"
                           },
                           "parameters": [
-                            "Checkpoint",
+                            "Checkpoint2",
                             "\"Activate\""
                           ]
                         },
@@ -20198,7 +20335,7 @@
           "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Background",
           "renderingType": "",
           "visibility": true,
@@ -20214,7 +20351,7 @@
           "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -20324,7 +20461,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20573214801975723,
+        "zoomFactor": 0.7499311725311777,
         "windowMask": false
       },
       "objectsGroups": [
@@ -20427,25 +20564,9 @@
           "name": "LeftBoundary",
           "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
           "width": 135,
-          "x": 0,
+          "x": -37,
           "y": -256,
           "zOrder": 38,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 49,
-          "layer": "",
-          "name": "Checkpoint",
-          "persistentUuid": "8ea01fcc-2da7-4eb2-966c-1b50c561bf00",
-          "width": 53,
-          "x": 1435,
-          "y": -57,
-          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20599,8 +20720,8 @@
           "name": "Player",
           "persistentUuid": "d18cbb05-c4c3-45fa-9f0d-318d3a0257d0",
           "width": 87,
-          "x": 189,
-          "y": 156,
+          "x": 187,
+          "y": 129,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -21061,7 +21182,7 @@
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "5ea2ac47-d2d3-4988-a01d-2b89b3387bcb",
-          "width": 72,
+          "width": 80,
           "x": 1466,
           "y": 205,
           "zOrder": 84,
@@ -21078,8 +21199,8 @@
           "name": "Platform1",
           "persistentUuid": "b8d2648b-b2e3-41ca-b201-7cbd690cc108",
           "width": 64,
-          "x": 1473,
-          "y": 47,
+          "x": 1470,
+          "y": 60,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -21097,6 +21218,22 @@
           "x": 36,
           "y": -255,
           "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 49,
+          "layer": "",
+          "name": "Checkpoint",
+          "persistentUuid": "e3a00535-ada9-4e79-878b-366ca3b48ee2",
+          "width": 49,
+          "x": 1418,
+          "y": -59,
+          "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21499,7 +21636,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21528,7 +21665,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21557,7 +21694,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "d3fd1e30503a599b60901c1aa9a10ee017ce54e59a1a5e347882442963ef60a1_Wall Fountain Basin Blue_Rippling_1.png",
+                      "image": "assets\\Wall Fountain Basin Blue_Rippling_1 - Copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23563,7 +23700,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Use checkpoints to save progress",
+              "name": "Use Checkpoint2s to save progress",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -23577,7 +23714,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "Save the position of the player at the beginning of the scene as the first checkpoint"
+                  "comment": "Save the position of the player at the beginning of the scene as the first Checkpoint2"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -23629,7 +23766,7 @@
                     "textG": 0,
                     "textR": 0
                   },
-                  "comment": "If the player collides with the checkpoint object and it is not active this will trigger"
+                  "comment": "If the player collides with the Checkpoint2 object and it is not active this will trigger"
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -23682,7 +23819,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Reset all checkpoints. \"Pick all\" is required because the collision condition only picks the checkpoint touching the player."
+                      "comment": "Reset all Checkpoint2s. \"Pick all\" is required because the collision condition only picks the Checkpoint2 touching the player."
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -23719,7 +23856,7 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Activate the checkpoint that the player is touching"
+                      "comment": "Activate the Checkpoint2 that the player is touching"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -24612,7 +24749,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Level6\"",
+                        "\"End\"",
                         ""
                       ]
                     }
@@ -25329,7 +25466,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3166225987450343,
+        "zoomFactor": 0.6146148664417982,
         "windowMask": false
       },
       "objectsGroups": [
@@ -25432,8 +25569,8 @@
           "name": "LeftBoundary",
           "persistentUuid": "78dd0ffa-b22f-47a8-9b36-ef6a432b1d1e",
           "width": 135,
-          "x": 0,
-          "y": -256,
+          "x": 176,
+          "y": -266,
           "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
@@ -25462,8 +25599,8 @@
           "name": "RightBoundary",
           "persistentUuid": "9562fd9d-6e93-4465-9013-efa2b833653b",
           "width": 160,
-          "x": 2842,
-          "y": -237,
+          "x": 568,
+          "y": -256,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -25542,7 +25679,7 @@
           "persistentUuid": "d18cbb05-c4c3-45fa-9f0d-318d3a0257d0",
           "width": 87,
           "x": 328,
-          "y": 265,
+          "y": 243,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -25572,8 +25709,8 @@
           "name": "NextLevel",
           "persistentUuid": "6d0802b4-b721-4cc3-98a6-2af6c48996b1",
           "width": 192,
-          "x": 357,
-          "y": 137,
+          "x": 386,
+          "y": 139,
           "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
@@ -25732,8 +25869,8 @@
           "name": "Platform1",
           "persistentUuid": "3066ab9f-5435-4cba-834d-8c7dcb63305e",
           "width": 75,
-          "x": 284,
-          "y": 355,
+          "x": 308,
+          "y": 353,
           "zOrder": 87,
           "numberProperties": [],
           "stringProperties": [],
@@ -29361,7 +29498,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Level6\"",
+                        "\"GG\"",
                         ""
                       ]
                     }
@@ -29711,7 +29848,7 @@
               "parameters": [
                 "Age",
                 "<",
-                "5"
+                "4"
               ]
             }
           ],
@@ -29781,7 +29918,7 @@
               "parameters": [
                 "Age",
                 ">=",
-                "5"
+                "4"
               ]
             }
           ],
@@ -29797,7 +29934,7 @@
                   "parameters": [
                     "Age",
                     "<=",
-                    "10"
+                    "7"
                   ]
                 }
               ],
@@ -29869,7 +30006,7 @@
               "parameters": [
                 "Age",
                 ">",
-                "10"
+                "7"
               ]
             }
           ],
@@ -29885,7 +30022,7 @@
                   "parameters": [
                     "Age",
                     "<=",
-                    "20"
+                    "10"
                   ]
                 }
               ],
@@ -29957,7 +30094,7 @@
               "parameters": [
                 "Age",
                 ">=",
-                "30"
+                "10"
               ]
             }
           ],
@@ -30056,7 +30193,7 @@
           "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "EndScreen",
           "renderingType": "",
           "visibility": false,
@@ -30104,15 +30241,15 @@
       ]
     },
     {
-      "b": 109,
+      "b": 63,
       "disableInputWhenNotFocused": true,
       "mangledName": "GG",
       "name": "GG",
-      "r": 90,
+      "r": 60,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 51,
+      "v": 52,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -30133,13 +30270,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 285,
+          "height": 284,
           "layer": "",
           "name": "Endtext",
           "persistentUuid": "cc3fea1e-8aa0-4fb7-9fe3-203615ba8a82",
-          "width": 876,
-          "x": 88,
-          "y": 167,
+          "width": 953,
+          "x": 2,
+          "y": 165,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -30159,10 +30296,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Thanks for playing!",
+          "string": "You finally died of old age!\n\nThanks for playing!",
           "font": "",
-          "textAlignment": "left",
-          "characterSize": 80,
+          "textAlignment": "center",
+          "characterSize": 70,
           "color": {
             "b": 255,
             "g": 255,
