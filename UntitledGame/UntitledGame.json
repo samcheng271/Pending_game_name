@@ -1716,7 +1716,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37372934271202213,
+        "zoomFactor": 0.5945659077770973,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6211,7 +6211,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41282536145602783,
+        "zoomFactor": 0.3383358549274534,
         "windowMask": false
       },
       "objectsGroups": [
@@ -6771,6 +6771,22 @@
           "x": 2391,
           "y": 228,
           "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "a4bcf0aa-3dca-4a70-b535-a669e7e20100",
+          "width": 68,
+          "x": 1383,
+          "y": 53,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11375,6 +11391,102 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "181294b2-8049-492f-bc21-e2ddd019b31a",
+          "width": 68,
+          "x": 1142,
+          "y": 113,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "d1e43c73-14eb-44b2-9b64-c63487c3eda6",
+          "width": 68,
+          "x": 1574,
+          "y": 88,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "620a165b-2b5c-4f97-bf92-d3707315dca9",
+          "width": 68,
+          "x": 1976,
+          "y": 58,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "05c3ceee-a605-4a78-b816-c9580939cd00",
+          "width": 68,
+          "x": 2257,
+          "y": 22,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "a1627367-2b51-452c-96f6-9655c75a096f",
+          "width": 68,
+          "x": 2524,
+          "y": -13,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "bb374207-832a-4cd4-8822-1c80b9e91d74",
+          "width": 68,
+          "x": 3091,
+          "y": 239,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15520,7 +15632,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3178724686508607,
+        "zoomFactor": 0.3166225987450345,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16261,6 +16373,22 @@
           "x": 1852,
           "y": 183,
           "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 68,
+          "layer": "",
+          "name": "Alcohol",
+          "persistentUuid": "0157132a-bc0b-4f14-a27c-c5bb18d2145e",
+          "width": 68,
+          "x": 2210,
+          "y": 451,
+          "zOrder": 92,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -20471,7 +20599,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7499311725311777,
+        "zoomFactor": 0.37372934271202235,
         "windowMask": false
       },
       "objectsGroups": [
@@ -25476,7 +25604,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6146148664417982,
+        "zoomFactor": 0.3272992172855801,
         "windowMask": false
       },
       "objectsGroups": [
