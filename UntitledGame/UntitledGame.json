@@ -10218,7 +10218,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"Level4\"",
+                        "\"Level3.5\"",
                         ""
                       ]
                     }
@@ -26022,7 +26022,7 @@
           "layer": "",
           "name": "Lore",
           "persistentUuid": "76e12c37-5feb-4b89-8559-65fb941043c6",
-          "width": 420,
+          "width": 540,
           "x": 213,
           "y": 125,
           "zOrder": 88,
@@ -28481,7 +28481,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "You get tired of living forever...",
+          "string": "You get tired of living forever... and waited for peace.",
           "font": "",
           "textAlignment": "left",
           "characterSize": 20,
